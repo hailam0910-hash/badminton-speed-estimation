@@ -17,3 +17,8 @@ runs/
 *.jpg
 *.zip
 *.pt
+# raw dataset
+dataset/new_labels_video2/
+
+# makesense export
+labels_my-project-name_*/
