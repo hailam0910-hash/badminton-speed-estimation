@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import os
 
-model_path = "runs/detect/train/weights/best.pt"
+model_path = "runs/detect/train-2/weights/best.pt"
 video_path = "videos/video1.mp4"
 output_path = "output/best_output.avi"
 
