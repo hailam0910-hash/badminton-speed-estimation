@@ -7,8 +7,15 @@ import os
 model = YOLO("runs/detect/train-2/weights/best.pt")
 
 # ===== VIDEO =====
-video_path = "videos/video1.mp4"
-output_path = "output/speed_output.avi"
+video_path = "videos/IMG_9806.MOV"
+
+# lấy tên video
+video_name = os.path.splitext(
+    os.path.basename(video_path))[0]
+
+
+# output tự động
+output_path = f"output/{video_name}_output.avi"
 
 # ===== OUTPUT =====
 os.makedirs("output", exist_ok=True)
